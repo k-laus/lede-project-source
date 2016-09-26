@@ -302,6 +302,14 @@ endef
 TARGET_DEVICES += nbg-419n
 
 
+define Device/nbg-419n2
+  DTS := NBG-419N2
+  IMAGE_SIZE := $(ralink_default_fw_size_8M)
+  DEVICE_TITLE := ZyXEL NBG-419N2
+endef
+TARGET_DEVICES += nbg-419n2
+
+
 define Device/mzk-wdpr
   DTS := MZK-WDPR
   IMAGE_SIZE := $(ralink_default_fw_size_8M)

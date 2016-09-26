@@ -322,6 +322,9 @@ ramips_board_detect() {
 	*"NBG-419N")
 		name="nbg-419n"
 		;;
+	*"NBG-419N v2")
+		name="nbg-419n2"
+		;;
 	*"NCS601W")
 		name="ncs601w"
 		;;
